@@ -28,7 +28,6 @@ public enum TariffDataBase {
         return name;
     }
 
-    //метод fromTariffType действует как база данных в памяти, которая заполнена значениями
     public static List<MobileTariff> fromTariffType() {
         List<MobileTariff> tariffs = new ArrayList<>();
         for (TariffDataBase type : values()) {

@@ -32,7 +32,6 @@ public enum ClientDataBase {
     }
 
 
-
     public int getYear() {
         return year;
     }
@@ -40,7 +39,7 @@ public enum ClientDataBase {
     public static List<MobileClient> fromClientDataBase() {
         List<MobileClient> clients = new ArrayList<>();
         for (ClientDataBase clientDB : values()) {
-            clients.add(new MobileClient(clientDB.name, clientDB.phoneNumber,clientDB.tariff, clientDB.year));
+            clients.add(new MobileClient(clientDB.name, clientDB.phoneNumber, clientDB.tariff, clientDB.year));
         }
         return clients;
     }

@@ -3,7 +3,7 @@ package com.mobile.operator.model;
 import java.util.List;
 
 public interface Clients {
-    // Интерфейс для сохранения/извлечения сущности из базы данных
+    // Interface for saving / retrieving an entity from the database
     List<MobileClient> findAll();
 
 }
