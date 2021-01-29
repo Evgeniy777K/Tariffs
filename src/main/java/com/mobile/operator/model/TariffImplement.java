@@ -1,7 +1,7 @@
 package com.mobile.operator.model;
 
 import java.util.List;
-
+// Реализация интерфейса
 public class TariffImplement implements Tariff {
     //    acts like an in-memory database
     private final List<MobileTariff> tariffList;
