@@ -1,6 +1,9 @@
 package com.mobile.operator.model;
 
+import org.apache.log4j.Logger;
+
 import java.util.List;
+
 // Реализация интерфейса
 public class TariffImplement implements Tariff {
     //    acts like an in-memory database

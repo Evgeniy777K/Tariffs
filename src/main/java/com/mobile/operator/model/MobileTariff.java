@@ -1,6 +1,10 @@
 package com.mobile.operator.model;
 
-public  class MobileTariff {
+import org.apache.log4j.Logger;
+
+public class MobileTariff {
+//    private final static Logger LOGGER = Logger.getLogger(MobileTariff.class);
+
     private long id;
     private String name;
     private int costPackage;
@@ -50,4 +54,5 @@ public  class MobileTariff {
                 ", limitMinuteInNet=" + limitMinuteInNet +
                 '}';
     }
+
 }

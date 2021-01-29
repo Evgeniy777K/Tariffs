@@ -1,0 +1,9 @@
+INFO  Executor:25 - [MobileTariff{id=1, name='Smart', costPackage=105, limitMinuteInNet=100}, MobileTariff{id=2, name='SmartBasic', costPackage=150, limitMinuteInNet=130}, MobileTariff{id=3, name='SmartMax', costPackage=200, limitMinuteInNet=170}, MobileTariff{id=4, name='SmartPlus', costPackage=250, limitMinuteInNet=200}, MobileTariff{id=5, name='SmartBusiness', costPackage=400, limitMinuteInNet=300}, MobileTariff{id=6, name='SmartBusinessPlus', costPackage=500, limitMinuteInNet=400}]
+INFO  Executor:26 - =============
+INFO  JsonExecute:20 - convert to string, finished!
+INFO  Executor:31 - [{"id":1,"name":"Smart","costPackage":105,"limitMinuteInNet":100},{"id":2,"name":"SmartBasic","costPackage":150,"limitMinuteInNet":130},{"id":3,"name":"SmartMax","costPackage":200,"limitMinuteInNet":170},{"id":4,"name":"SmartPlus","costPackage":250,"limitMinuteInNet":200},{"id":5,"name":"SmartBusiness","costPackage":400,"limitMinuteInNet":300},{"id":6,"name":"SmartBusinessPlus","costPackage":500,"limitMinuteInNet":400}]
+INFO  Executor:32 - ================
+INFO  JsonExecute:32 - write to file, finished!
+INFO  JsonExecute:46 - convert to POJO, finished!
+INFO  Executor:37 - Name from POJO: Smart
+INFO  Executor:38 - cost package from POJO: 105

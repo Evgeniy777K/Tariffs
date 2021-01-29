@@ -7,10 +7,12 @@ import com.mobile.operator.model.TariffImplement;
 import com.mobile.operator.model.MobileTariff;
 import com.mobile.operator.model.MobileClient;
 import com.mobile.operator.view.View;
+import org.apache.log4j.Logger;
 
 import java.util.List;
 
 public class MobileTariffController {
+
     private Tariff tariff;
     private Clients client;
     private View view;
@@ -29,4 +31,5 @@ public class MobileTariffController {
             view.printAllTariff(tariffs, clients);
         }
     }
+
 }

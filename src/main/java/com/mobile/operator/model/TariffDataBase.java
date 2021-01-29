@@ -17,6 +17,8 @@ public enum TariffDataBase {
     private final int costPackage;
     private final int limitMinuteInNet;
 
+
+
     TariffDataBase(long id, String name, int costPackage, int limitMinuteInNet) {
         this.id = id;
         this.name = name;
@@ -24,8 +26,21 @@ public enum TariffDataBase {
         this.limitMinuteInNet = limitMinuteInNet;
     }
 
+
     public String getName() {
         return name;
+    }
+
+    public long getId() {
+        return id;
+    }
+
+    public int getCostPackage() {
+        return costPackage;
+    }
+
+    public int getLimitMinuteInNet() {
+        return limitMinuteInNet;
     }
 
     public static List<MobileTariff> fromTariffType() {
