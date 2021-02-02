@@ -33,7 +33,7 @@ public class Executor {
         jsonAction.convertJavaToJsonFile(tariffDataBase, "tariffDataBase.json");
 
         String jsonStr1 = "{\"id\":1,\"name\":\"Smart\",\"costPackage\":105,\"limitMinuteInNet\":100}";
-        MobileTariff mobileTariff = jsonAction.convertJsonStrTOAnimalPOJO(jsonStr1);
+        MobileTariff mobileTariff = jsonAction.convertJsonStrTOMobileTariffPOJO(jsonStr1);
         LOGGER.info("Name from POJO: " + mobileTariff.getName());
         LOGGER.info("cost package from POJO: " + mobileTariff.getCostPackage());
 

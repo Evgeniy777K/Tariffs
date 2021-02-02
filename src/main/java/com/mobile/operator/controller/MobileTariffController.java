@@ -7,7 +7,6 @@ import com.mobile.operator.model.TariffImplement;
 import com.mobile.operator.model.MobileTariff;
 import com.mobile.operator.model.MobileClient;
 import com.mobile.operator.view.View;
-import org.apache.log4j.Logger;
 
 import java.util.List;
 

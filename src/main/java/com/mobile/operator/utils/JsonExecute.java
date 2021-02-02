@@ -37,7 +37,7 @@ public class JsonExecute {
         }
     }
 
-    public MobileTariff convertJsonStrTOAnimalPOJO(String jsonStr) {
+    public MobileTariff convertJsonStrTOMobileTariffPOJO(String jsonStr) {
 
         MobileTariff mobileTariff = null;
         try {
